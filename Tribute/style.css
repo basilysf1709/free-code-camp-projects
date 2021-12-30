@@ -1,0 +1,81 @@
+#all {
+    background-color: black;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+#title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+}
+#img-caption {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+#image {
+    max-width: 45000px;
+}
+
+#img-div {
+    margin: 20px 160px 160px 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+#img-div:hover {
+    transform: scale(1.05);
+}
+
+#img-div img {
+    width: 100%;
+}
+#img-div p {
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px;
+    color: black;
+}
+
+#tribute-info-text {
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#tribute-info li {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+#tribute-info ul {
+   list-style: none; /* Remove default bullets */
+}
+  
+#tribute-info ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: red; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1.4em; /* Also needed for space (tweak if needed) */
+    margin-left: 0em;  /*Also needed for space (tweak if needed) */
+    margin-bottom: 2em;
+}
+
+#tribute-info-link p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 24px;
+    margin: 24px;
+}
